@@ -7,7 +7,10 @@
   "bin": {
     "create-odoc-site": "index.js"
   },
-  "languageName": "node",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "git://github.com/HelipengTony/create-odoc-site.git",
   "dependencies": {
     "execa": "^4.0.2",
     "github-download-parts": "^2.1.0",
